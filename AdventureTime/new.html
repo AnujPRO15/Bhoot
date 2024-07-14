@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* GATE START */
+        body{
+          overflow-x: hidden;
+        }
+
+.left{
+  float: inline-start;
+  animation: abc 5s forwards ease-in-out;
+  position: relative;
+
+}
+
+@keyframes abc{
+  0%{left: 0px; top: 0px;}
+ 100%{left: -500px;top: 0px;}
+}
+
+
+.right{
+  
+
+  animation: xyz 5s forwards ease-in-out;
+  position: relative;
+}
+
+@keyframes xyz{
+  0%{right: 0px; top: 0px;}
+ 100%{right: -500px;top: 0px;}
+  
+}
+    </style>
+</head>
+<body>
+
+
+  <img class="right" src="Assets/Graphics/gate-right.png" alt="" width="50%">
+
+        <img class="left" src="Assets/Graphics/gate-left.png"  alt="" width="50%"> 
+  
+  
+</body>
+</html>
